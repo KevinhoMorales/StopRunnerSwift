@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC303B4127039B5B00359E4F /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC303B4027039B5B00359E4F /* Accelerometer.swift */; };
 		BCC58C55270382CC00E02D56 /* StopRunnerSwift WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BCC58C54270382CC00E02D56 /* StopRunnerSwift WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BCC58C5B270382CC00E02D56 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC58C59270382CC00E02D56 /* Interface.storyboard */; };
 		BCC58C5D270382D400E02D56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC58C5C270382D400E02D56 /* Assets.xcassets */; };
@@ -80,6 +81,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BC303B4027039B5B00359E4F /* Accelerometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer.swift; sourceTree = "<group>"; };
 		BCC58C50270382CA00E02D56 /* Stop Runner .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stop Runner .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC58C54270382CC00E02D56 /* StopRunnerSwift WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StopRunnerSwift WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC58C5A270382CC00E02D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			children = (
 				BCC58C68270382D400E02D56 /* HostingController.swift */,
 				BCC58C6A270382D400E02D56 /* ContentView.swift */,
+				BC303B4027039B5B00359E4F /* Accelerometer.swift */,
 				BCC58C6C270382D400E02D56 /* ExtensionDelegate.swift */,
 				BCC58C6E270382D400E02D56 /* NotificationController.swift */,
 				BCC58C70270382D400E02D56 /* NotificationView.swift */,
@@ -396,6 +399,7 @@
 				BCC58C69270382D400E02D56 /* HostingController.swift in Sources */,
 				BCC58C6F270382D400E02D56 /* NotificationController.swift in Sources */,
 				BCC58C6D270382D400E02D56 /* ExtensionDelegate.swift in Sources */,
+				BC303B4127039B5B00359E4F /* Accelerometer.swift in Sources */,
 				BCC58C71270382D400E02D56 /* NotificationView.swift in Sources */,
 				BCC58C73270382D400E02D56 /* ComplicationController.swift in Sources */,
 			);

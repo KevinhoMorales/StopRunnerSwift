@@ -8,9 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    fileprivate var speed = "200"
+    
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        VStack {
+            Text("Current Speed")
+                .font(.caption)
+                .fontWeight(.medium)
+                .multilineTextAlignment(.center)
+            Text("\(speed) Km/h")
+                .font(.title)
+                .fontWeight(.bold)
+                .multilineTextAlignment(.center)
+                .padding()
+            Text("Dev Kevinho Morales")
+                .font(.footnote)
+                .fontWeight(.regular)
+                .multilineTextAlignment(.center)
+            Spacer()
+            Button("Set Up Limit") {
+                print("Button tapped!")
+            }
+            .background(Color.pink)
+            .cornerRadius(15)
+        }
     }
 }
 
